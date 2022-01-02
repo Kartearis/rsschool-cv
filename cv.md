@@ -3,6 +3,7 @@
   - Phone: +7 962 689 64 79
   - Email: justshowel@gmail.com
   - Github: [Kartearis](https://github.com/Kartearis)
+
 ## About me
   Former student of BSTU "Voenmeh", I continue to study in my own pace while seeking a place to
   apply my skills. I had some experience developing automated systems for BSTU, but more importantly
@@ -30,5 +31,6 @@
 ## Education
   - BSc at Software Engineering (BSTU "Voenmeh", 2015-2019)
   - MSc at Software Engineering (BSTU "Voenmeh", 2019-2021)
+
 ## Languages
   Have a C1 Cambridge ESOL certificate, although dated. Current level must be somewhere near B2.
