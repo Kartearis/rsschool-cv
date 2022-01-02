@@ -28,6 +28,7 @@
   - 4 years of developing Workplace Automation systems at BSTU "Voenmeh", mainly for the admission committee.
   - Development of automated [task checker](http://toi.kartearis.xyz) for Theoretical Bases of Informatics discipline at BSTU.
   - Several pet projects such as tabletop map generator, currently unpublished.
+
 ## Education
   - BSc at Software Engineering (BSTU "Voenmeh", 2015-2019)
   - MSc at Software Engineering (BSTU "Voenmeh", 2019-2021)
