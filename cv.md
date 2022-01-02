@@ -11,13 +11,13 @@
   - C
   - C++ (sdl2, Qt)
   - JavaScript (jquery, vue.js)
-  - Php
+  - PHP
   - Python 3 (Qt, flask, Django, SqlAlchemy)
   - SQL
   - HTML/CSS
 
 ## Code examples
-  Solution to CodeWars Kata [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
+  Solution to Codewars Kata [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
   ```
   var countBits = function(n) {
     return n.toString(2).replace(/0/g,'').length;
