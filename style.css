@@ -196,3 +196,19 @@ ul.timeline li:before {
   border-radius: 50%;
 }
 
+ul.tag-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul.tag-list li {
+  background-color: lightslategray;
+  color: #FEFEFE;
+  border-radius: 15px;
+  padding: 5px;
+}
+
