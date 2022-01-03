@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <title>Matveev Timofey CV</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header-background header-layout-nav">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="header-layout">
+          <div class="photo">
+            <img src="./assets/img/photo.jpg" alt="My photo"/>
+          </div>
+          <div class="data-container">
+            <div id="name" class="name-container">
+              <h1>Matveev Timofey</h1>
+            </div>
+            <div id="contacts" class="contact-container">
+              <ul>
+                <li><a href="mailto:justshowel@gmail.com"><span class="material-icons md-24 align">email</span>justshowel@gmail.com</a></li>
+                <li><a href="https://discordapp.com/users/186168160821575691"><span class="custom-icons discord"></span>Kartearis#6865</a></li>
+                <li><a href="https://github.com/Kartearis"><span class="custom-icons github"></span>Kartearis</a></li>
+                <li><span class="material-icons md-24 align">room</span>Saint-Petersburg, Russia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container main-layout">
+        <section id="summary">
+          <h2>About</h2>
+          <p>
+            Former student of BSTU "Voenmeh", I continue to study in my own pace while seeking a place to
+            apply my skills. I had some experience developing automated systems for BSTU, but more importantly
+            I can learn to do almost anything, given some time and testing environment (or description of such).
+          </p>
+        </section>
+        <section id="education">
+          <h2>Education</h2>
+          <ul class="dated-list">
+            <li data-dates="2015-2019">BSc at Software Engineering (BSTU "Voenmeh")</li>
+            <li data-dates="2019-2021">MSc at Software Engineering (BSTU "Voenmeh")</li>
+          </ul>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+          <ul class="timeline">
+            <li>4 years of developing Workplace Automation systems at BSTU "Voenmeh", mainly for the admission committee.</li>
+            <li>Development of automated <a href="http://toi.kartearis.xyz">task checker</a> for Theoretical Bases of Informatics discipline at BSTU.</li>
+            <li>Several pet projects such as tabletop map generator, currently unpublished.</li>
+            <li>This <a href="https://kartearis.github.io/rsschool-cv/">CV</a></li>
+          </ul>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul class="tag-list">
+            <li>C</li>
+            <li>C++ (sdl2, Qt)</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Python 3 (Qt, flask, Django, SqlAlchemy)</li>
+            <li>SQL</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </section>
+        <section id="code-example">
+          <h2>Code example</h2>
+          <p> Solution to Codewars Kata <a href="https://www.codewars.com/kata/526571aae218b8ee490006f4">Bit Counting</a> (scrollable on small screens).</p>
+          <pre class="code-container">
+            <code>
+            var countBits = function(n) {
+              return n.toString(2).replace(/0/g,'').length;
+            };
+            </code>
+          </pre>
+        </section>
+        <section id="languages">
+          <h2>Languages</h2>
+          <p>English: C1 Cambridge ESOL certificate</p>
+          <p>Russian: Native</p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-layout header-background">
+        <div class="data-container">
+          &copy;<a href="https://github.com/Kartearis"><span class="custom-icons github"></span>Kartearis</a>, <span id="year">2022</span>
+        </div>
+        <div class="data-container logo-container">
+          <a href="https://rs.school/js/" class="rss-svg-logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById('year').innerHTML = new Date().getFullYear();
+      });
+    </script>
+  </body>
+</html>
