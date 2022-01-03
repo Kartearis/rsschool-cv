@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/favicon.ico">
     <title>Matveev Timofey CV</title>
   </head>
   <body>
@@ -72,11 +73,13 @@
         </section>
         <section id="code-example">
           <h2>Code example</h2>
-          Solution to Codewars Kata [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
-          <pre>
-          var countBits = function(n) {
-          return n.toString(2).replace(/0/g,'').length;
-          };
+          <p> Solution to Codewars Kata <a href="https://www.codewars.com/kata/526571aae218b8ee490006f4">Bit Counting</a></p>
+          <pre class="code-container">
+            <code>
+            var countBits = function(n) {
+              return n.toString(2).replace(/0/g,'').length;
+            };
+            </code>
           </pre>
         </section>
         <section id="languages">
@@ -87,9 +90,20 @@
       </div>
     </main>
     <footer>
-      <div class="container">
-
+      <div class="container footer-layout header-background">
+        <div class="data-container">
+          &copy;<a href="https://github.com/Kartearis"><span class="custom-icons github"></span>Kartearis</a>, <span id="year">2022</span>
+        </div>
+        <div class="data-container logo-container">
+          <a href="https://rs.school/js/" class="rss-svg-logo">
+          </a>
+        </div>
       </div>
     </footer>
   </body>
 </html>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+  });
+</script>
